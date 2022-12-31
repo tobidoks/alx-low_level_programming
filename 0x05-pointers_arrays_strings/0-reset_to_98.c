@@ -1,4 +1,4 @@
-#include "main.h"
+#include "0-reset_to_98.c"
 
 /**
  * reset_to_98 -> a function to update the reference of a pointer
@@ -7,4 +7,5 @@
 void reset_to_98(int *n)
 {
 	*n = 98;
+
 }
